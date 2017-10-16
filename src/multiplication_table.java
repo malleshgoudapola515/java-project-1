@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-    public class Multiplication_Table 
+    public class multiplication_table 
 
     {
 

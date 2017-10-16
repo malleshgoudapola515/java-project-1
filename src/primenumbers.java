@@ -1,11 +1,11 @@
-class PrimeNumbers
+class primenumbers
 {
    public static void main (String[] args)
    {		
        int i =0;
        int num =0;
        //Empty String
-       String  primeNumbers = "";
+       String  primenumbers = "";
 
        for (i = 1; i <= 100; i++)         
        { 		  	  
@@ -19,11 +19,11 @@ class PrimeNumbers
 	  }
 	  if (counter ==2)
 	  {
-	     //Appended the Prime number to the String
-	     primeNumbers = primeNumbers + i + " ";
+	     //Appended the prime number to the String
+	     primenumbers = primenumbers + i + " ";
 	  }	
        }	
-       System.out.println("Prime numbers from 1 to 100 are :");
-       System.out.println(primeNumbers);
+       System.out.println("prime numbers from 1 to 100 are :");
+       System.out.println(primenumbers);
    }
 }
